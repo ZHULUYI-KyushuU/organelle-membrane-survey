@@ -1,0 +1,39 @@
+{
+  "file": "A05_核膜.md",
+  "n_cited": 174,
+  "abstract_zh": "酵母核膜是 ER 的特化亚域。跨膜核孔蛋白与 Brl1–Brr6–Apq12 使 NPC 由内向外嵌入并融合内外膜，Heh1/Heh2 经受体入境，LEM–Chm7–ESCRT-III 监视组装，Nem1–Spo7–Pah1 轴调节膜扩张，NVJ 与 Atg39 途径连接营养信号与核降解。本章并列融合、入境与核自噬几何的分歧，给出高亏格曲面、两库模型与渗透平衡的方程。",
+  "key_concepts_zh": [
+    "核膜是 ER 的特化亚域：ONM 与 ER 连续、核周隙与 ER 腔相通，INM 经孔膜与 ONM 相接，身份靠入境、清除与边界蛋白（Lem2/Lnp1）维持",
+    "闭合有丝分裂：酵母核膜不解体，需扩张面积并在末期局部拆除桥区 NPC",
+    "跨膜核孔蛋白与膜环：Pom152 腔侧环、Ndc1、Pom34、Pom33 把 NPC 锚定于孔膜，Ndc1 同时服务 SPB",
+    "NPC 由内向外的间期组装：内外核膜融合，组装中间体表现为核膜疝（nup116 突变体、Brl1 两亲螺旋突变体）",
+    "Brl1–Brr6–Apq12 复合体与两亲螺旋：直接融合装置还是脂质/曲率调节，CLCC1 为后生动物对应物",
+    "内核膜蛋白靶向：扩散–滞留与 karyopherin 介导入境（Heh1/Heh2 的 NLS 加长无序连接区）并存，受 NPC 外周通道尺寸限制",
+    "INM 质控：Asi 复合体、Doa10 与 APC/C 降解 Mps3，以及 LEM–Chm7–ESCRT-III 对 NPC 组装中间体与核膜破损的监视（SINC、索环）",
+    "Nem1–Spo7–Pah1（lipin）轴：PA→DAG 分流、核膜扩张与 flare 膜库，Opi1 读出 PA，TORC1 调控该轴",
+    "内核膜的代谢活性：Lro1 合成 TAG、核内脂滴、脂质饱和度传感与 NPC 组装",
+    "核–液泡连接（NVJ）：Nvj1–Vac8 接触位点，富集 Osh1、Tsc13、Lam6/Ltc1、Mdm1、Nvj2、Hmg1，参与脂滴生成与甲羟戊酸/麦角甾醇调控",
+    "两条核自噬途径：NVJ 依赖的 PMN 与 Atg39 依赖的宏核自噬（含 NPC 自噬、核仁蛋白降解），货物选择受 rDNA 核膜锚定影响",
+    "核大小与形状：核质比由核质间渗透压平衡与膜供给共同约束，Cdc5 与 Pah1 磷酸化调控有丝分裂核形"
+  ],
+  "open_questions_zh": [
+    "Brl1–Brr6 是直接催化内外核膜融合的蛋白，还是经局部脂质组成与曲率间接促进融合；两亲螺旋管融合还是管核孔蛋白招募",
+    "INM 蛋白入境在酵母中扩散–滞留与受体介导各占多少，对应 NPC 外周通道的什么几何尺寸",
+    "Atg39 如何让 INM 入泡（核膜突起还是腔内囊泡），Dnm1 在何处切离，Apq12/Brr6/Brl1 复合体在哪一步介入",
+    "NVJ 的核心功能是脂质转运、代谢区隔还是营养信号；PMN 与 Atg39 途径如何分工协同",
+    "核大小由渗透平衡、膜流动还是膜供给决定；酿酒酵母与裂殖酵母的结论能否统一",
+    "核膜扩张为何集中于核仁侧，flare 作为膜库的容量与调控规则是什么",
+    "Chm7/ESCRT 在酵母间期是常规质控还是仅异常时介入，PA 是否是联系 Pah1 轴与 Chm7 募集的变量",
+    "染色质–核膜锚定（含 Yta7 等边界因子）是否影响核膜形状与核自噬货物选择，目前缺乏 Yta7 与核膜的直接证据"
+  ],
+  "cross_hooks_zh": [
+    "Gauss–Bonnet 定理与高亏格曲面：核周隙亏格 g=N−1，χ=4−2N，每孔高斯项能量 −4πκ_G；用 Helfrich 泛函与动态三角化膜模拟（Torbati 2016、Noguchi 2016）求孔径约束下的核膜形状",
+    "stalk–半融合–融合孔能垒理论（Chernomordik & Kozlov 2008）：k=k0·exp(−ΔE‡/k_BT)，区分 Brl1–Brr6 的桥接假说与脂质调节假说所预期的停滞中间体比例",
+    "两亲螺旋的弹性理论与 ALPS 分子动力学（Campelo 2008、Vanni 2013）：对 Brl1、Nup1/Nup60、Pah1、Opi1、Atg39 用结合自由能与分配系数统一比较",
+    "扩散–滞留反应扩散/两库 ODE 模型：dn_I/dt=k_in·n_ER−k_out·n_I，稳态富集 (k_in/k_out)(1+B/K_d)，用 FRAP 与 split-GFP 数据拟合（Ellenberg 1997、Boni 2015）",
+    "渗透压–泵漏模型与 Young–Laplace 方程：Π_N−Π_C=2T/R，V_N/V_C=N_N/N_C（Deviri & Safran 2022、Lemière 2022、Rollin 2023），以及核分裂几何账 2^(1/3)≈1.26 倍面积",
+    "FG 屏障的聚合物标度理论与残基级粗粒化分子动力学（Zilman 2007、Ghavami 2014、Matsuda 2025），结合 Zimmerli 2021 的 cryo-ET 直径预测孔扩张下的通透",
+    "cryo-ET 子断层平均加整合建模（IMP 贝叶斯推断）加 AlphaFold（Kim 2018、Rout 2019、Mosalaganti 2022）重建 NPC 组装中间体与孔膜形状",
+    "代谢脉冲标记质谱的成熟动力学拟合（KARMA）与超分辨颗粒平均（SIM-PA）：估计 NPC 组装顺序与 SPB 组分排布"
+  ]
+}

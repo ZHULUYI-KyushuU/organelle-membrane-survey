@@ -1,0 +1,20 @@
+{
+ "n_input": 3,
+ "n_verified": 1,
+ "n_corrected": 0,
+ "n_dropped": 2,
+ "n_with_abstract": 1,
+ "n_total_in_file": 154,
+ "dropped": [
+  {
+   "title": "Dissecting BAR Domain Function in the Yeast Amphiphysins Rvs161 and Rvs167 during Endocytosis",
+   "doi": "10.1091/mbc.e10-03-0181",
+   "reason": "already in chapter JSON"
+  },
+  {
+   "title": "Role of turgor pressure in endocytosis in fission yeast",
+   "doi": "10.1091/mbc.e13-10-0618",
+   "reason": "already in chapter JSON"
+  }
+ ]
+}

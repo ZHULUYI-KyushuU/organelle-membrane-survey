@@ -1,0 +1,39 @@
+{
+ "file": "A04_内质网膜.md",
+ "n_cited": 163,
+ "abstract_zh": "本章把酵母内质网当作可定量的几何与反馈系统：核周ER与皮层ER两区域构型；Rtn/Yop1生成小管，Sey1融合、Lnp1稳定三叉连接，片层与孔洞的真实性尚有争议；ER–质膜系链与tricalbin峰状结构连接形态与脂质流；COPII与出口位点；Opi1、Ire1、Mga2把膜脂状态回馈到ER大小；遗传、ERSU与ER-phagy决定更新；并给出Helfrich能量等可计算框架。",
+ "key_concepts_zh": [
+  "皮层ER与核周ER的两区域构型及少数管状连接",
+  "reticulon/Yop1楔形与弧形寡聚支架生成ER小管曲率",
+  "Sey1/atlastin同型融合与Lnp1稳定三叉连接的拮抗平衡",
+  "ER片层、孔洞(fenestrae)与致密小管基质的争议",
+  "六种ER–质膜系链(Ist2、Scs2/22、tricalbin)与峰状高曲率ER",
+  "COPII外被自组装、Sar1 GTP酶循环与膜变形",
+  "ER出口位点(ERES/tER)的物种差异与Sec16的作用",
+  "Opi1–磷脂酸反馈与ER膜扩张缓解应激",
+  "Ire1的未折叠蛋白与脂双层应激双输入",
+  "皮层ER遗传、ER应激监视(ERSU)与芽颈扩散屏障",
+  "ER-phagy受体Atg39/Atg40与不依赖核心Atg的微ER-phagy",
+  "ER出芽子域：脂滴与过氧化物酶体生成平台"
+ ],
+ "open_questions_zh": [
+  "片层究竟是真实的连续片层，还是带孔片层或致密小管基质，差别来自物种还是分辨率",
+  "酵母皮层ER片层上的孔洞如何形成与维持，线张力与膜张力能否直接测量",
+  "Ire1对未折叠蛋白与脂双层应激两种输入能否由统一的物理激活模型描述",
+  "tricalbin峰状结构的主要功能是维持质膜完整性还是促进脂质流，六种系链为何冗余又各有特化",
+  "Sec16是组织ER出口位点还是调控COPII周转，决定ERES尺寸的参数是什么",
+  "芽颈ER扩散屏障由septin、鞘脂还是ER–septin系链构成，因果链如何",
+  "受体依赖的宏ER-phagy与ESCRT依赖的微ER-phagy如何分工，Atg39/Atg40如何选择子域",
+  "ER腔内运输以扩散还是主动流为主，酵母中是否有直接证据"
+ ],
+ "cross_hooks_zh": [
+  "Helfrich弯曲能量泛函与自发曲率：计算小管半径R=√(κ/2σ)、片层边缘线张力与孔洞临界半径，并与reticulon密度建立相图(Shemesh 2014)",
+  "微分几何与极小曲面：Terasaki螺旋坡道的理论解(Guven 2014)用于堆叠片层几何",
+  "粗粒化与全原子分子动力学：reticulon/Yop1弧形寡聚体(Wang 2021、Xiang 2023)与Ire1两亲螺旋感知膜厚度(Halbleib 2017)",
+  "图论与网络扩散传播子：ER网络环数E−V+1、Steiner最小网络(Lin 2014)、网络异质性对到达时间的影响(Scott 2023)",
+  "随机过程：三叉连接的亚扩散分数布朗运动(Speckner 2018)与腔内Péclet数判据(Holcman 2018)",
+  "外被组装动力学与GTP酶循环的ODE模型：COPII出芽效率、曲率反馈与分选严格性(Foret 2008、Hanna 2016)",
+  "协同组装与连续介质失配能模型：Ire1寡聚阈值响应与Mga2两态旋转的反馈控制",
+  "深度学习与子断层平均：ERnet、Nellie、DeePiCt分割与RELION-4贝叶斯子断层平均结合AlphaFold多聚体预测(Wozny 2023)"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+  "file": "A07_内吞内体与ESCRT.md",
+  "n_cited": 154,
+  "abstract_zh": "酵母内吞—内体系统把膜上的三类问题拆成可测量、可建模的对象：对抗膨压的内陷力学、ESCRT-III 切断朝内膜颈的弹性几何、Rab 与磷酸肌醇定义内体身份的开关。本章依次讲内吞时序模块与 CLEM 形态序列、MVB 与 ESCRT-III/Vps4、Rab 转换、Rsp5–ART 货物选择、retromer 与 AP-3 分选，并列矛盾证据，给出力平衡、弹性杆与 Rab 双稳态方程。",
+  "key_concepts_zh": [
+    "网格蛋白介导内吞的模块化时序：早期包被→晚期包被→WASP/Myo→肌动蛋白→BAR 分裂，包被先累积、肌动蛋白短暂爆发",
+    "膨压使酵母内吞依赖肌动蛋白：膨压项 πr²P 约 10³ pN，远大于弯曲与张力项；降低膨压可解除（芽殖酵母）或部分绕过（裂殖酵母）",
+    "Sla2 ANTH / Ent1 ENTH 在 PI(4,5)P2 上把肌动蛋白网络耦联到膜；Sla2 FRET 传感器给出活体力读数",
+    "CLEM 形态序列：平膜→浅坑→管状内陷→分裂；网格蛋白影响分裂位置与小泡大小而非内陷形状",
+    "ESCRT-0/I/II/III + Vps4 级联：泛素（尤其 K63 链）为 MVB 分选信号，ESCRT-0/I/II 浓缩货物、ESCRT-III 切颈",
+    "ESCRT-III 的两类能量模型：Snf7 螺旋弹簧弛豫 vs Snf7→Vps24/Vps2→Did2→Ist1 顺序聚合加 Vps4 亚基交换",
+    "Rab5→Rab7 转换：Vps21→Ypt7，Mon1–Ccz1 为 Ypt7 的 GEF，CORVET→HOPS 拴系互换，Msb3/Gyp3 为 GAP",
+    "磷酸肌醇编码：Vps34 产生 PI3P 定义内体，Fab1–Vac14–Fig4 复合体控制 PI(3,5)P2，涉及 MVB 分选与液泡大小",
+    "Rsp5–ART 网络：营养信号经 TORC1–Npr1 等激酶/磷酸酶开关调控 ART，ART 把 Rsp5 带到特定转运蛋白，泛素链类型决定内吞或 MVB",
+    "retromer（Vps35–Vps26–Vps29）与 SNX-BAR（Vps5/Vps17、Snx4 等）的回收包被：cryo-ET 显示拱形排列，Vps1 参与管分裂",
+    "液泡分选两条路线：Vps10 介导的 CPY 途径与 AP-3 介导的 ALP 直接途径；TGN 兼作早期内体的极简内膜观点",
+    "内体与自噬交叉：Atg20/Atg24 SNX-BAR、Svp1/Atg18 为 PI(3,5)P2 效应蛋白、ESCRT 参与液泡微自噬"
+  ],
+  "open_questions_zh": [
+    "肌动蛋白网络如何把聚合能转为垂直于膜的力：Carlsson、Nickaeen、Dmitrieff 等模型的力预测差数倍，缺原位力测量，Sla2 FRET 读数不足以裁决",
+    "内陷小泡分裂主要靠 Rvs161/167 BAR 支架、Vps1 机械作用，还是脂质相界线张力",
+    "ESCRT-III 切颈的能量来源：螺旋弹簧弛豫与顺序聚合—Vps4 主动交换如何在同一个 MVB 颈部统一；主动重塑的部分证据来自人源蛋白与体外体系",
+    "MVB 腔内小泡的尺寸（约 25 nm 量级）由 ESCRT-III 丝固有曲率、ESCRT-0/I/II 货物凝聚还是膜张力决定",
+    "酵母内体究竟是时序成熟还是区室间运输：极简内膜系统、TGN 内早期/分选子区室与经典前液泡区室尚未调和",
+    "SNX-BAR 管的分裂与 Vps1/Mvp1 的分工，以及 retromer 是否需要 Vps5/Vps17 管状化才能工作",
+    "Rsp5–ART 网络的组合逻辑：特异与冗余如何并存，翻译后开关是否有统一规则",
+    "Fab1 复合体中 Fig4 磷酸酶与激酶共处的动力学，及 PI(3,5)P2 的局部浓度与寿命的原位定量"
+  ],
+  "cross_hooks_zh": [
+    "连续介质力学：Helfrich 弯曲能加膨压的轴对称变分方程（Dmitrieff 2015），F = πr²P + πκ/r + 2πσr 的量级估算，以及 Hassinger 2017 的 snap-through 失稳与张力控制分岔",
+    "主动物质与聚合物物理：Arp2/3 分支网络的有限元（Nickaeen 2019）与 Cytosim 粒子模拟（Akamatsu 2020），Brownian ratchet 停滞力公式与载荷自适应",
+    "弹性杆理论：Kirchhoff 杆能量加粘附能、持续长度 ℓp = B/kBT，Lenz 2009 屈曲判据，圆顶对锥形的能量景观（Fabrikant 2009；Agudo-Canalejo 2018）",
+    "分子动力学：ESCRT-III 丝几何变化的粗粒化 MD（Harker-Kirschneck 2019）、刚度的全原子/粗粒化计算（Mandal 2020），以及用 AlphaFold-Multimer 检验异聚体侧向静电界面",
+    "非线性动力学：Rab5/Rab7 的 toggle 与 cut-out 开关 ODE（Del Conte-Zerial 2008），用零斜线与鞍结分岔分析 Mon1–Ccz1 的双输入反馈，并可延伸为反应扩散下的内体域模式形成",
+    "图像分析算法：多蛋白事件的亚像素质心追踪与时序对齐（Picco 2015/2017）、temporal superresolution realignment（Berro 2014）、单分子定位平均（Mund 2018）",
+    "结构计算：cryo-ET 子断层平均给出膜上 retromer 拱形晶格（Kovtun 2018）与内吞位点肌动蛋白丝取向（Serwas 2022），对称性可约束力学模型",
+    "随机过程与统计物理：把内体网络写成融合/分裂/成熟的随机过程并反推速率（Foret 2012）；Ede1 与 ESCRT-0 凝聚可用多价 sticker-spacer 型相分离模型描述"
+  ]
+}

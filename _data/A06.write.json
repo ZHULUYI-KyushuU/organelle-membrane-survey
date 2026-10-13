@@ -1,0 +1,39 @@
+{
+  "file": "A06_高尔基体膜.md",
+  "n_cited": 112,
+  "abstract_zh": "酵母高尔基体的核心事实是潴泡成熟：2006 年活细胞成像见同一潴泡由 cis 标志换为 trans 标志，2019 年货物追踪证实货物随潴泡停留至 TGN 分拣。换装由 Arf1–Sec7 正反馈、Rab 转换与 Pik1 的 PI4P 梯度驱动，COPI、AP-1、exomer 负责回收分拣，跨膜域长度与脂质梯度提供物理筛选。本章并列成熟与囊泡运输等争议，并给出阈值开关与堆叠能量模型。",
+  "key_concepts_zh": [
+    "潴泡成熟（cisternal maturation）：同一潴泡依次由 cis 标志（Vrg4、Sed5、Gos1）换为 trans/TGN 标志（Sec7、Tlg1），货物随潴泡停留直到 TGN 分拣",
+    "高尔基区段（zones）与 ERGIC 样中间区室：早期 TGN（Sec7、Ypt31/32）与晚期 TGN（网格蛋白、AP-1、Sec4）在同一潴泡上空间分隔、按序出现",
+    "毕赤酵母堆叠高尔基体与 tER 组织：Sec12 定位限制 tER 离散性，golgin Imh1 与 Arl1 调控可逆堆叠",
+    "ERES–cis-Golgi 的 hug-and-kiss 接触：潴泡主动靠近 ERES 取货，替代长程自由 COPII 囊泡",
+    "Arf1–Sec7/Gea 的正反馈招募：Arf1-GTP 招募其 GEF，Arl1、Ypt1、Ypt31/32 提供招募或变构输入",
+    "Rab GEF/GAP 级联与转换：TRAPPII 空间位阻门控选择 Ypt31/32，Ypt32 招募 Gyp1、Gyp6 关闭上游 Rab，Ypt32 招募 Sec2 激活 Sec4",
+    "PI4P 梯度：Pik1（高尔基）与 Stt4（质膜）的区室分工，Sac1 水解，Arf1 直接招募 Pik1–Frq1",
+    "Osh4/OSBP 的固醇/PI4P 反向交换：以 PI4P 水解为能量逆梯度运固醇，并提高 TGN 脂质有序度",
+    "COPI 逆向回收与成熟：KKXX 信号、Rer1 跨膜域回收、COPI 对早期/中期潴泡成熟的作用，AP-1 与 Ent3/Ent5 的晚期回收",
+    "TGN 分选机器：Gga2/AP-1 的 PI4P 依赖有序招募、网格蛋白、酵母特有的 exomer（Chs5–ChAPs）",
+    "GPI 锚定蛋白与神经酰胺的 ER 出口分选：极长链神经酰胺、p24 与 COPII 组成，囊泡与非囊泡（接触点）神经酰胺运输",
+    "跨膜域长度分选与膜厚度梯度：Bretscher–Munro 假说，Sharpe 的 TMD 比较，膜蛋白对厚度的贡献，Drs2 翻转酶造成的不对称与曲率"
+  ],
+  "open_questions_zh": [
+    "酵母高尔基体中除成熟之外，潴泡间囊泡交换（快速分配）占多大比例，能否在单潴泡水平测出",
+    "COPI 失活后成熟停滞（温敏突变）与晚期 TGN 仍可成熟（锚定失活）的差异来自失活速度，还是确有早/中/晚三段回收分工",
+    "TGN 是否等同早期内体，还是内含独立的内吞早期/分选亚区室",
+    "Arf1–Sec7 正反馈是否在活细胞中形成滞后或双稳，剂量–响应曲线如何测",
+    "Osh4/Kes1 在酵母体内的固醇运输通量有多大，PI4P 梯度是燃料还是仅作结合位点",
+    "分泌途径膜厚度梯度主要来自固醇、鞘脂还是膜蛋白，酵母（麦角固醇）中缺少直接测量",
+    "毕赤酵母堆叠相对酿酒酵母散在的功能代价与收益：Imh1 存在而不堆叠，需要哪些额外因子",
+    "GPI 蛋白在 ER 出口的分选中 p24、神经酰胺链长与 COPII 外壳组成各自的权重"
+  ],
+  "cross_hooks_zh": [
+    "Arf1–Sec7 正反馈的转临界分岔与 Hill 协同性导致的双稳/滞后（反应扩散与动力系统，参数来自 Richardson 2012 的体外动力学）",
+    "Rab GEF/GAP 级联作为延迟耦合的脉冲/波方程（C02 模式形成），Ypt6→Ypt31/32→Ypt1 时序可拟合",
+    "成熟与囊泡交换的主方程与 Gillespie 随机模拟，Erlang 停留时间分布与 Fano 因子（Vagne 2018，Mukherji 2014，C03）",
+    "糖链加工的信息编码与最优潴泡数目（Yadav 2022，C06 信息论/优化）",
+    "扁平潴泡的 Helfrich 边缘能与粘附能平衡，堆叠临界半径 R_c=πκ/(wρ)（Derganc 2006，Lee 2014，Tachikawa 2017，B01/B06）",
+    "ALPS 基序曲率感应与脂质堆积缺陷的粗粒化/全原子分子动力学（Vanni 2014，D01）",
+    "跨膜域疏水匹配能 E=½K_m(L−d)² 与迭代回收分选 (1−q)^n，可用 Sharpe 2010 的 TMD 长度分布反推有效厚度（B02/A17）",
+    "cryo-ET 深度学习膜分割（MemBrain v2）自动测潴泡曲率与膜间距，AlphaFold 复合物预测补全 TRAPPII 与 Arf-GEF 结构（D02/D03）"
+  ]
+}

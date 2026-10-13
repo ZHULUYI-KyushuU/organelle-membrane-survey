@@ -1,0 +1,39 @@
+{
+  "file": "A12_脂滴.md",
+  "n_cited": 136,
+  "abstract_zh": "酵母脂滴是 ER 双层“出油”形成、外包磷脂单层的中性脂乳液相。本章依次讲中性脂代谢、成核—出芽—生长的物理决定因素、seipin–Ldb16 的发现与结构、生成位点与 FIT2、核内脂滴、LD 亚群与接触、微脂噬，并给出杨–拉普拉斯、经典成核、LSW/Smoluchowski、Helfrich 分相等模型；seipin 腔面域、出芽方向、nLD 的 seipin 依赖性等分歧并列呈现。",
+  "key_concepts_zh": [
+    "脂滴结构：TAG 与甾醇酯构成的中性脂核，外被一层磷脂单分子层与表面蛋白；核心在 SE 比例升高时可转入近晶液晶相",
+    "无脂滴酵母：are1Δ are2Δ dga1Δ lro1Δ 四缺失株无 TAG、SE 与 LD 但可生长，TAG 合成仍是缓冲油酸脂毒性的必要通路",
+    "中性脂代谢：Dga1（DGAT2）与 Lro1（PDAT）合成 TAG，Are1/Are2 合成 SE，Tgl3/Tgl4/Tgl5 水解；Pah1–Nem1–Spo7 提供 DAG，Cdk1 激活 Tgl4 把脂解接到 G1/S",
+    "LD 生物发生的分步模型：TAG 在双层中溶解、成核为透镜、向胞质侧出芽、生长成熟",
+    "出芽的物理变量：单层表面张力不对称、磷脂内禀（自发）曲率（DAG、PE）、膜曲率催化成核、磷脂在颈部分相",
+    "seipin（Sei1/Fld1）–Ldb16 复合体：酵母十聚体柔性笼，位于 ER–LD 连接处；缺失产生聚集小 LD 与超大 LD",
+    "seipin 的候选功能：捕获 TAG 促成核、抑制熟化、扩散屏障、位点选择、定向出芽",
+    "FIT2 家族（Scs3/Yft2）：酰基辅酶 A 二磷酸酶，缺失时初生 LD 滞留在 ER 双层内，同时影响 UPR 与蛋白/膜脂稳态",
+    "LD 生成位点：seipin–Nem1 离散 ER 亚域，Pex30 亚域与过氧化物酶体共享，Mdm1 在 NVJ 附近重新定位生成",
+    "LD 亚群与伴侣：Ldo16/Ldo45（同一基因的剪接异构体）、Pet10/Pln1（perilipin）、Pdr16 标记的 NVJ 亚群，Ldo–Vac8 形成 LD–液泡系留",
+    "核内脂滴：Lro1 在内核膜合成 TAG，不饱和度与 seipin 调节内核膜 PA 与 nLD 生成",
+    "微脂噬：稳定期或饥饿时液泡甾醇富集的液有序微域吞入 LD，依赖核心 Atg、Snf1/AMPK、NPC 蛋白与 ESCRT"
+  ],
+  "open_questions_zh": [
+    "seipin 笼的开合如何转化为对 TAG 成核能垒的降低？腔面域是否必需（Klug 2021、Khatri 2025 与人 seipin 模拟并不一致）",
+    "FIT2 的酰基辅酶 A 二磷酸酶活性与 TAG 结合如何转化为对出芽的物理作用",
+    "体内 ER 局部的 TAG 浓度与成核临界浓度是多少，经典成核理论能否定量适用于活细胞",
+    "成熟 LD 是否始终与 ER 保持膜连续，经连接输运与 LD 自带产能两种图景分别占多大比例",
+    "核内脂滴的 seipin 依赖性在酵母与人肝细胞中的差异是物种差异还是机制差异，nLD 的生理意义是缓冲还是调控染色质",
+    "微脂噬中液泡 Lo 微域的形成由相分离自发驱动还是依赖 NPC 甾醇转运与蛋白支架，不同诱导条件下是否共享同一套机器",
+    "Ldo、Tld1 与 Pdr16 标记的 LD 亚群的身份如何建立和维持，是否对应不同代谢命运",
+    "LD 核心近晶相、SE 比例与表面蛋白组之间的因果次序"
+  ],
+  "cross_hooks_zh": [
+    "杨–拉普拉斯球冠与 Neumann 三角：两侧单层张力比给出 R_c/R_l=γ_c/γ_l 和出芽方向，酵母可通过 PC/PE/DAG/PA 扰动改变 γ（B01、B06）",
+    "经典成核理论加 seipin 陷阱：c*_bulk=c_sat·exp(ΔG_trap/k_BT)，ΔG_trap 由 MARTINI 粗粒化或全原子伞形采样/平均力势给出，突变 ΔΔG 可与酵母表型对照（D01、B02）",
+    "LSW 熟化的储库版本 dV_i/dt=g_i[μ_ER−μ(R_i)] 与 Smoluchowski 凝聚方程的并列拟合，用 sei1Δ 的大小分布和 Gritsch 2026 的分割流程区分熟化与融合（C03、B06）",
+    "Helfrich 弯曲能加两组分 Flory–Huggins 混合自由能，描述颈部磷脂分相与自发曲率驱动的出芽（B01、B02）",
+    "Cahn–Hilliard 方程与线张力：液泡 Lo/Ld 微域的形成、粗化与 LD 内陷，固醇分数为控制参数（C02、B02）",
+    "TAG 合成—水解 ODE 与 Cdk1 阶跃项，参数可由 Zanghellini 2008 与 Kurat 2009 的数据约束（C05）",
+    "近晶相的 Landau 序参量模型 F=a(x_SE)|Ψ|²+b|Ψ|⁴，以 SE 摩尔分数为控制参数，对接 cryo-ET 的液晶相观察（B02、D03）",
+    "光谱成像的非负最小二乘线性解混构建细胞器相互作用网络，CARS/拉曼无标记定量，以及 seipin 与 FIT2 复合体的 AlphaFold 建模和比较基因组（D03、D02、E01）"
+  ]
+}

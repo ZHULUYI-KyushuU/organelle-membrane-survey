@@ -1,0 +1,15 @@
+{
+ "n_input": 99,
+ "n_verified": 95,
+ "n_corrected": 3,
+ "n_dropped": 1,
+ "n_with_abstract": 97,
+ "n_total_in_file": 98,
+ "dropped": [
+  {
+   "title": "Distribution of amino acids in a lipid bilayer from computer simulations",
+   "doi": "10.1529/biophysj.107.112805",
+   "reason": "not found in CrossRef (best sim 0.00)"
+  }
+ ]
+}

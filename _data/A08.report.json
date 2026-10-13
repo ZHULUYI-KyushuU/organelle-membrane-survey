@@ -1,0 +1,35 @@
+{
+ "n_input": 232,
+ "n_verified": 216,
+ "n_corrected": 11,
+ "n_dropped": 5,
+ "n_with_abstract": 222,
+ "n_total_in_file": 227,
+ "dropped": [
+  {
+   "title": "Vacuole membrane fusion: V0 functions after trans-SNARE pairing and is coupled to the Ca2+-releasing channel",
+   "doi": "10.1083/jcb.200212004",
+   "reason": "not found in CrossRef (best sim 0.36)"
+  },
+  {
+   "title": "Autophagic tubes: vacuolar invaginations involved in lateral membrane sorting and inverse vesicle budding",
+   "doi": "10.1083/jcb.151.3.519",
+   "reason": "not found in CrossRef (best sim 0.27)"
+  },
+  {
+   "title": "An In Vivo Study of the Vacuole Membrane Protein Pib2",
+   "doi": "10.1128/mcb.00075-17",
+   "reason": "not found in CrossRef (best sim 0.33)"
+  },
+  {
+   "title": "The emerging significance of Vac8, a multi-purpose armadillo-repeat protein in yeast",
+   "doi": "10.1080/15548627.2024.2377377",
+   "reason": "not found in CrossRef (best sim 0.00)"
+  },
+  {
+   "title": "Yeast vacuoles: more than a model for lysosome biogenesis",
+   "doi": "10.1016/j.tcb.2010.06.003",
+   "reason": "not found in CrossRef (best sim 0.85)"
+  }
+ ]
+}

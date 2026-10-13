@@ -1,0 +1,83 @@
+{
+  "gaps": [
+    {
+      "title": "孢子形成中的前孢子膜与交配时的质膜/核膜融合",
+      "part": "A",
+      "why_zh": "全书文献标题中与 sporulation/prospore 相关的仅 2 条，且都是顺带提及（A04 Otto 2021、A05 Moens 1971）；交配融合（Prm1/Fig1 质膜融合、Kar5 核融合）只有 A05 的 Kurihara 1994、Melloy 2007 和 A08 的 Weisman 1988 三条。前孢子膜是酵母独有的从头膜装配范例：减数分裂 II 中 SPB 衍生的 meiotic plaque 充当成核位点，分泌囊泡经 Spo20 SNARE（PA 感应）、PLD Spo14 融合，新质膜环绕核叶包围单倍体核，最后封闭。它既是从头膜生物发生的天然模型，又能直接对接 B03/B06 的面积生长与开口收缩物理。交配融合则是可遗传筛选的质膜融合与内外核膜融合案例，可补上 A05、B03 里缺失的酵母体内融合实例。",
+      "key_refs_hint": "Neiman 1998 JCB 与 Neiman 2005 MMBR（前孢子膜形成）；Knop & Strasser 2000 EMBO J（SPB/meiotic plaque 引导前孢子膜）；Nakanishi 2006 J Cell Sci（Spo14 PLD 与 Sso1 SNARE）；Rose 1995 PNAS（PLD 与减数分裂）；Aguilar 2007 MBoC（Prm1/Fig1 质膜融合）；Beh 1997 JCB 与 Melloy 2007（Kar5 与核融合）"
+    },
+    {
+      "title": "磷脂降解、周转与脂质信号酶（PLD/PLC/DGK、Nte1/Plb、Isc1）",
+      "part": "A",
+      "why_zh": "A02 只覆盖合成与稳态回路，分解与周转一侧近乎空白。标题检索 Spo14、Plc1、Dgk1、Nte1、Plb、Isc1、磷脂酶 D 等，全书只命中 3 条（Jain 2007、Tamaki 2007 的溶血磷脂酰基转移酶，A15 的 Jun 2004 PLC 与 DAG），Dgk1 与 Pah1 的 PA/DAG 拮抗没有独立文献。PA/DAG 的生成与消耗直接决定 Opi1 开关、核膜扩张、曲率与融合（B01/B03），C05 的脂稳态 ODE 也缺少周转与降解这一出口项。没有这一块，章节中的“PA 池”只有进项没有出项，质量守恒式不完整。",
+      "key_refs_hint": "Rose 1995 PNAS 与 Sreenivas 1998 JBC（Spo14/Pld1）；Han 2008 JBC（Dgk1，PA/DAG 反向）；Zaccheo 2004 JBC（Nte1 降解 PC）；Merkel 1999 JBC（Plb1-3）；Sawai 2000 JBC（Isc1）；Carman & Han 2011 Annu Rev Biochem（磷脂合成调控综述）"
+    },
+    {
+      "title": "蛋白质的脂质共价修饰与脂连接糖基化（GPI 锚、dolichol/N-糖基化、棕榈酰化、异戊二烯化）",
+      "part": "A",
+      "why_zh": "这是蛋白锚定到膜、定义细胞器身份的另一半机制，目前被切成零散片段。GPI 合成与重塑只有 A03 的两篇综述（Pittet 2007、Peter 2007）和 A14 的 Toulmay 2022；dolichol/LLO/OST/Pmt 标题几乎为零；棕榈酰化与法尼基化仅见于 A08 的 Vac8、A11 的 Pex19 约 5 篇；Rab 的双牙异戊二烯化与 Ras 的 Erf2–Erf4 棕榈酰化未成专题。这一块连着多个物理问题：ER 膜上 LLO 的翻转（flippase/scramblase 之争）、脂质锚的结合自由能与侧向分配（B04/B02）、棕榈酰化对域分配的作用，以及 D01 的 MD 参数化。",
+      "key_refs_hint": "Orlean & Menon 2007 J Lipid Res（酵母 GPI 锚）；Fujita & Kinoshita 2012 BBA（GPI 重塑）；Burda & Aebi 1999 BBA（dolichol 途径）；Bai 2018 Nature 与 Wild 2018 Science（酵母 OST 结构）；Roth 2006 Cell（酵母棕榈酰化组）；Lobo 2002 JBC 与 Bartels 1999 MCB（Erf2–Erf4）；Hou 2005 PNAS（Pfa3–Vac8）；Jiang 1993 Nature（Bet2/Bet4 GGTase）"
+    },
+    {
+      "title": "细胞器与质膜上的离子、金属与多聚磷酸盐稳态（Ca2+、Fe/Zn/Mn、polyP/磷酸盐）",
+      "part": "A",
+      "why_zh": "B04 讲了质子动力势、K+ 与渗透，生物学部分却没有对应章节。Pmr1（高尔基 Ca2+/Mn2+）、Pmc1 与 Vcx1（液泡 Ca2+）、Cch1–Mid1 通道、Ccc1/Zrc1/Smf 等金属转运蛋白，以及 VTC 复合体合成并转位 polyP、Pho84/Pho90/Pho91 与 SPX 域感应 IP7，全书都没有系统文献：polyP 约 12 条（A08 占 5），Fe/Zn/Mn/Cu 转运蛋白标题合计 ≤5 条。这些离子决定腔内成分、Δψ、缓冲能力与 Donnan 平衡，是 A08 的泵–漏–缓冲 ODE 和 B04 电扩散模型里缺失的变量，也是酵母液泡作为储存细胞器的核心功能。",
+      "key_refs_hint": "Antebi & Fink 1992 MBoC（Pmr1）；Cunningham & Fink 1994 JCB 与 1996 MCB（Pmc1、Vcx1、钙调神经磷酸酶）；MacDiarmid 2000 EMBO J（Zrc1/Cot1 液泡锌）；Li 2001 JBC（Ccc1 液泡铁）；Hothorn 2009 Science（VTC4 polyP 聚合酶）；Wild 2016 Science（SPX 域肌醇多磷酸感应）；Pipercevic 2023（已收录，IP7 激活 VTC）"
+    },
+    {
+      "title": "质膜信号转导平台与空间梯度感知（信息素 GPCR–MAPK、HOG、Ras–PKA）",
+      "part": "A",
+      "why_zh": "A03 把质膜讲成脂质域与张力回路，但质膜的信号平台几乎缺席。Ste2/Ste3–Gpa1–Ste5–Fus3 级联、Sho1/Sln1–Hog1 与 Fps1 闭合（只有 B04 一篇 Lee 2013）、Ras–cAMP–PKA（只有 Dechant 2010 的 pH 第二信使与 Vinnakota 2010 的 Ras2 扩散）都没有成组文献；A03 里 39 条“信号”命中大多是 Cdc42 与 PS 极性。这是酵母系统生物学最成熟的领域之一，已有大量定量模型，可与 C05 的积分反馈与完美适应、C06 的 Berg–Purcell 极限和信道容量直接对接，同时 Ste5–PI(4,5)P2 支架、受体簇与 Ste2 内吞也与 A03/A07 相连。",
+      "key_refs_hint": "Dohlman & Thorner 2001 Annu Rev Biochem；Bardwell 2005 Peptides；Hohmann 2002 MMBR（渗透胁迫信号）；Mettetal 2008 Science 与 Muzzey 2009 Cell（HOG 完美适应）；Hao 2007 Curr Biol（Sho1 反馈）；Segall 1993 PNAS 与 Dyer 2013 Curr Biol（信息素梯度追踪）"
+    },
+    {
+      "title": "细胞壁–质膜–膨压的壳体力学与体积调节（壁合成酶、CWI、渗透适应）",
+      "part": "A",
+      "why_zh": "酵母壁承担大部分膨压，这是 A07 内吞力平衡（πr²P）、eisosome 储备、TORC2 张力感知的共同前提，书里却没有独立论述。含 cell wall、chitin、glucan、CWI 的标题全书仅 9 条（A03 占 5），turgor 标题仅 2 条（Dmitrieff 2015、Basu 2014）；β-1,3-葡聚糖合酶 Fks1 结构（Zhao 2023）被放进 E02；Chs2/Chs3 的运输与定位、壁蛋白交联、壁弹性与 AFM 测量、渗透冲击后体积与膜面积恢复都缺证据。壁合成酶本身也是质膜内嵌酶，是 echinocandin 的靶点，与 B01/B04 的膜张力和渗透压平衡可建立定量联系。",
+      "key_refs_hint": "Orlean 2012 Genetics（壁结构与合成）；Levin 2005 MMBR（CWI 信号）；Klis 2006 FEMS Microbiol Rev；Hu 2023 Nature（Fks1 冷冻电镜）；Minc 2009 Curr Biol 与 Atilgan 2015 Curr Biol（裂殖酵母生长力学）；Davì 2019 Dev Cell（壁机械感应）；Schaber 2010 Eur Biophys J（酿酒酵母生物物理参数与 HOG）"
+    },
+    {
+      "title": "线粒体蛋白输入机器及其能量学（TIM23–PAM、TIM22、MIA、前体循环）",
+      "part": "A",
+      "why_zh": "线粒体输入是酵母细胞器膜研究的经典核心，但目前只有零散的结构论文：TOM 结构（Tucker 2019、Araiso 2022）、TIM23（Sim 2023、Fielden 2023）、TIM22（Zhang 2021）、Oxa1 少量分布于 A09/A10/A16，合计约 7–10 篇。PAM 马达（Tim44–Ssc1–Pam16/18）、Mia40–Erv1 氧化折叠、前序列切割、Δψ 电泳驱动、载体通路的摘要命中只有 2 篇左右。这里恰好有现成的物理对接：布朗棘轮与动力冲程之争、Δψ 驱动的电泳转位、通道门控，可与 B04 的电化学和 B05 的非平衡主题合并。",
+      "key_refs_hint": "Neupert & Herrmann 2007 Annu Rev Biochem；Pfanner 2019 Nat Rev Mol Cell Biol；Mokranjac & Neupert 2010 BBA（TIM23）；Chacinska 2004 EMBO J（Mia40）；Okamoto 2002 EMBO J（导入马达为分子棘轮）；Liebermeister 2001 J Mol Biol（棘轮转位数学模型）；Banerjee 2015 eLife（Tim44 耦合）"
+    },
+    {
+      "title": "跨酵母物种的比较膜生物学与“酵母作为模型”的外推边界（S. pombe、Pichia、Candida、Cryptococcus）",
+      "part": "E",
+      "why_zh": "E01 里明确的酵母近缘比较只有 3 篇，E04 谈模型生物的哲学，但没有任何一章实际划定外推边界。很多结论其实是酿酒酵母特例，例如：S. pombe/Candida/Cryptococcus 有 Sre1–Scp1 型 SREBP 固醇回路而酿酒酵母靠 Upc2；Pichia 高尔基体是堆叠的而酿酒酵母散在；裂殖酵母与芽殖酵母的闭合有丝分裂核膜扩张策略不同；Candida 菌丝尖端存在脂筏极化，Cryptococcus 有荚膜多糖的囊泡分泌。书中每章加一句“该结论在哪些物种成立”，比单增文献更重要。",
+      "key_refs_hint": "Hughes 2005（SREBP/Sre1，已收录）；Wachtler 2003（pombe 固醇域，已收录）；Rossanese 1999 JCB 与 Mogelsvang 2003 MBoC（Pichia 高尔基）；Yam 2011 Curr Biol（核分裂策略比较）；Martin & Konopka 2004（C. albicans 脂筏，已收录）；Rodrigues 2007 Eukaryot Cell（Cryptococcus 囊泡输出）"
+    }
+  ],
+  "weak_chapters": [
+    {
+      "chapter_id": "A03",
+      "problem_zh": "质膜章只有 109 篇，约为 A05（298 篇）的三分之一，却是全书最核心的章节之一。2022 年后仅 8 篇，子题明显偏向 eisosome/MCC/TORC2（约三分之一以上），转运蛋白与营养摄取仅约 17 篇，Pma1 约 9 篇，信号转导、细胞壁、GPI 基本空白。同一批论文（Fairn 2011、Sartorel 2018、van't Klooster 2020）与 A01/A17 重复出现，实际独立内容更少。建议至少补到 150 篇以上，并拆出信号与壁两个子节。"
+    },
+    {
+      "chapter_id": "A07",
+      "problem_zh": "154 篇中综述约 21 篇，实验主线偏向肌动蛋白力学和 ESCRT-III 物理模型（模型类子题合计 20 余篇），内体分选生物学偏薄：retromer、SNX-BAR、AP-3、内体–高尔基逆向运输、内体 Rab 各仅 2 到 7 篇。2022 年后只有 8 篇，ESCRT-III 近年结构、重构与 Vps4 机制偏少，而且书中前提是“酵母内体是否成熟”，对应的 TGN/早期内体证据也很弱。"
+    },
+    {
+      "chapter_id": "A06",
+      "problem_zh": "112 篇，摘要明确指向酿酒酵母的约 65 篇，约 21 篇涉及后生动物，S. pombe 为 0，Pichia 仅 5 篇。糖基转移酶定位与驻留（Och1、Vps74/GOLPH3）约 4 篇，Kex2/Ste13 等 TGN 蛋白酶加工为 0，exomer 仅 3 篇，主要由综述（12 篇）和理论（9 篇）撑起框架，实验锚点偏少。2023 年后仅 8 篇，缺 Golgi 糖基化区室化这个与“信息编码”理论相扣的生物学基础。"
+    },
+    {
+      "chapter_id": "A10",
+      "problem_zh": "内膜章集中在 MICOS、嵴力学和心磷脂，内膜蛋白输入（TIM23/TIM22/Oxa1）仅 7 篇，PAM 马达与 Mia40 摘要命中仅 2 篇。116 篇里只有约 60 篇摘要明确指向酵母，约 23 篇提到哺乳动物或牛心，嵴形态与超复合体的结论大量借自哺乳动物，酵母原位证据偏少。建议配合上面的线粒体蛋白输入缺口一并补充，并为每个嵴结论标注物种来源。"
+    },
+    {
+      "chapter_id": "E02",
+      "problem_zh": "90 篇中 2022 年后仅 4 篇（全书中位数约 11%）。疾病覆盖偏窄：CMT2A、Barth、NPC、α-突触核蛋白等约占三分之一，神经退行病的 TDP-43、FUS、ALS、polyQ 酵母模型完全缺席；抗真菌耐药（Pdr5/Cdr1、Erg11 结构、echinocandin、Candida auris）仅 3 到 5 篇，近年进展未覆盖；癌症相关仅个别提及。"
+    },
+    {
+      "chapter_id": "E03",
+      "problem_zh": "2022 年后仅 7 篇，Sc2.0 合成基因组仅 3 篇，人工细胞器与分泌通路设计仅 2 篇，而油脂/脂肪酸化学品及 ER、脂滴扩张用于生产约占 1/7，工业导向与“细胞器膜”主题联系较弱。膜蛋白从头设计、合成无膜区室的酵母实现、近年的人工系链与区室化工程偏少。"
+    },
+    {
+      "chapter_id": "C05",
+      "problem_zh": "91 篇中 2022 年后仅 5 篇，几乎全部围绕酿酒酵母脂质回路。作为全书“可教学方程模型”的主力，分岔与滞回证据仅 2 篇、生化系统理论与代谢控制分析仅 2 篇、脂质合成成本仅 1 篇，缺少现代参数推断（贝叶斯、模拟推断）和膜面积/囊泡运输的一般性动力学框架，难以支撑 A02/A03 引用的多处 ODE 论述。"
+    }
+  ],
+  "notes_zh": "全书 40 章共 5880 条文献条目，去重后约 3783 篇，其中 2023 年以后仅约 370 篇（约 10%），时间重心在 2000 到 2020 年，A03、A07、C05、E02、E03 的近年占比尤其低（约 4% 到 8%）。最明显的系统性偏差是过度偏向 S. cerevisiae：A 部分 2953 条条目里约 60% 的摘要明确写 yeast 或 cerevisiae，S. pombe 约 110 条且 36 条挤在 A05，Pichia 主要出现在 A11 与 A06，病原酵母与丝状真菌几乎只出现在 E02，多数结论未标注物种适用范围。第二个偏差是章节失衡：A05 有 298 篇，而最核心的 A03 质膜和 A02 脂质合成只有 109 与 111 篇。第三个偏差是静态细胞器视角过强，酵母特有的发育与生活史膜事件（孢子形成、交配融合、菌丝生长）、质膜信号、细胞壁、离子与金属稳态、脂质共价修饰与降解几乎没有。第四，B、C 部分的酵母直接证据很薄（B01 约 25%、C01 约 15% 的条目提到酵母），理论多来自通用膜或哺乳动物体系，正文需标明酵母参数从何而来。第五，跨章重复很高，有 468 篇出现在 3 章或更多章，A03/A17、A04/A14 等重叠明显，计数时应以去重数为准。此外，膜静电学（Gouy–Chapman、PS/PI4P/PA 电荷编码）和热、乙醇、渗透胁迫下的膜适应只是分散在 A02/A17/B04，覆盖不均但并非空白，故未列为缺口。以上数字均来自对标题、摘要和子题的关键词统计，属近似值，具体章节核对时需再手工确认。"
+}

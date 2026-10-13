@@ -1,0 +1,20 @@
+{
+ "n_input": 128,
+ "n_verified": 123,
+ "n_corrected": 3,
+ "n_dropped": 2,
+ "n_with_abstract": 122,
+ "n_total_in_file": 234,
+ "dropped": [
+  {
+   "title": "Quantitative analysis of intracellular transport and Golgi organization",
+   "doi": "",
+   "reason": "not found in CrossRef (best sim 0.58)"
+  },
+  {
+   "title": "Masserstein: Linear regression of mass spectra by optimal transport",
+   "doi": "10.1002/rcm.8956",
+   "reason": "not found in CrossRef (best sim 0.00)"
+  }
+ ]
+}

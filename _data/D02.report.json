@@ -1,0 +1,9 @@
+{
+ "n_input": 93,
+ "n_verified": 88,
+ "n_corrected": 5,
+ "n_dropped": 0,
+ "n_with_abstract": 92,
+ "n_total_in_file": 93,
+ "dropped": []
+}

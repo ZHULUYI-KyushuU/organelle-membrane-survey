@@ -1,0 +1,15 @@
+{
+ "n_input": 47,
+ "n_verified": 46,
+ "n_corrected": 0,
+ "n_dropped": 1,
+ "n_with_abstract": 44,
+ "n_total_in_file": 192,
+ "dropped": [
+  {
+   "title": "Quantitative analysis of the spatial distance between autophagy-related membranes",
+   "doi": "10.1080/15548627.2024.2330033",
+   "reason": "not found in CrossRef (best sim 0.69)"
+  }
+ ]
+}

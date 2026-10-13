@@ -1,0 +1,39 @@
+{
+  "file": "E04_科学史与哲学视角.md",
+  "n_cited": 89,
+  "abstract_zh": "本章从科学史与科学哲学角度梳理膜与细胞器知识的形成：脂双层、三明治、单位膜到流动镶嵌及其“更镶嵌”的修订；细胞器经电镜看见、差速离心分开、酵母积累突变体拆开的三段路径；化学渗透与信号假说两场理论先于证据的争论；模式生物外推与机制解释的哲学边界；以及自创生、Markov blanket 与生命起源把膜写成边界时，哪些说法可检验。",
+  "key_concepts_zh": [
+    "脂双层与蛋白-脂质-蛋白三明治模型（Gorter-Grendel 1925；Danielli-Davson 1935）",
+    "单位膜假说（Robertson）",
+    "流动镶嵌模型与侧向扩散（Singer-Nicolson 1972；Frye-Edidin 1970）及其“更镶嵌”的修订",
+    "细胞分级与差速离心（Claude；de Duve；Palade）",
+    "化学渗透与质子动力势（Mitchell；Prebble 的史学分析）",
+    "信号假说与体外重构（Blobel-Dobberstein 1975）",
+    "积累突变体逻辑（sec、sec61、apg/atg 筛选）",
+    "模式生物作为参照模型与经验外推（Ankeny-Leonelli；Levy-Currie）",
+    "机制解释及其局限（Machamer-Darden-Craver；Bechtel）",
+    "自创生与组织闭合（Varela-Maturana-Uribe；Moreno-Mossio）",
+    "Markov blanket 与自由能原理（Friston；Bruineberg 的批评）",
+    "原始细胞与脂囊泡的生长分裂（Szostak；Hanczyc；Deamer）"
+  ],
+  "open_questions_zh": [
+    "脂筏在活细胞中是稳定实体，还是接近临界点的瞬时组成涨落？",
+    "在单位膜与流动镶嵌之后，是否需要一个整合拥挤、分区与主动过程的新膜模型？",
+    "“膜流动性”是否真是脂质饱和度调控的被测变量（Mga2 的结果提示未必）？",
+    "化学渗透中局域与整体质子偶联之争是否已被结构研究完全解决？",
+    "酵母细胞器膜的结论外推到人类细胞的有效范围如何逐案界定？",
+    "Markov blanket 是生物体边界的本体论特征，还是建模者选择的统计构造？",
+    "原始细胞中膜、代谢与遗传系统的出现顺序，膜先行假说能否得到实验支持？",
+    "机制解释能否容纳膜相分离、非线性反馈等没有清晰部件边界的现象？"
+  ],
+  "cross_hooks_zh": [
+    "Saffman-Delbrück 二维流体力学扩散方程 D = k_BT/(4π μ_m h)·[ln(μ_m h/(μ_w a)) − γ]（膜蛋白扩散系数随半径的对数依赖）与脂质域中的异常扩散对照",
+    "质子动力势 Δp = Δψ − (2.3RT/F)ΔpH 与 Nernst 方程，及 nFΔp ≥ ΔG_p 的热力学约束（化学渗透的定量形式）",
+    "Markov blanket 的条件独立性定义 p(μ|b,η)=p(μ|b) 与变分自由能 F = E_q[ln q − ln p]（Pearl 1988；Friston 2013）",
+    "Varela-Maturana-Uribe 1974 的二维离散元胞自动机自创生模型与 Rosen 的 (M,R) 系统",
+    "脂囊泡生长分裂的约化体积 ν = 6√π V/A^{3/2} 与渗透压驱动的表面积-体积比竞争模型（常微分方程描述）",
+    "遗传相互作用 ε = W_ab − W_a·W_b 与酵母全局遗传网络的模块化（Costanzo 2016）",
+    "三变量 Goodwin 振荡器（Hill 系数 n > 8）与 Lazebnik 收音机类比的可识别性问题",
+    "差速离心的 Stokes 沉降速度 v = 2r²(ρ_p − ρ_m)ω²x/(9η) 与细胞分级方案设计"
+  ]
+}

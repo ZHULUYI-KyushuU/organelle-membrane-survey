@@ -1,0 +1,15 @@
+{
+ "n_input": 113,
+ "n_verified": 109,
+ "n_corrected": 3,
+ "n_dropped": 1,
+ "n_with_abstract": 108,
+ "n_total_in_file": 112,
+ "dropped": [
+  {
+   "title": "A sterol-binding protein integrates endosomal lipid metabolism with TOR signaling and nitrogen sensing",
+   "doi": "",
+   "reason": "not found in CrossRef (best sim 0.00)"
+  }
+ ]
+}
